@@ -12,31 +12,31 @@ var map = new mapboxgl.Map({
 var markers = [
   {
     lngLat: [73.293191, 22.257008], // [longitude, latitude] of the marker position
-    popupContent: '<img src="https://ychef.files.bbci.co.uk/976x549/p09h83yc.jpg"><h3>Vadodara</h3><p>Collection centre of Rigid Bottle Bag</p>'
+    popupContent: '<img src="https://ychef.files.bbci.co.uk/976x549/p09h83yc.jpg"><h3>Vadodara</h3><p>Collection centre of Shrink Bag</p>'
   },
   {
     lngLat: [75.478192, 23.597970], // [longitude, latitude] of the marker position
-    popupContent: '<img src="https://im.indiatimes.in/media/content/2019/Mar/global_recycling_day_1552985398_725x725.jpg"><h3> Madhya Pradesh</h3><p>Collection centre of Rigid Bottle Bag</p>'
+    popupContent: '<img src="https://im.indiatimes.in/media/content/2019/Mar/global_recycling_day_1552985398_725x725.jpg"><h3> Madhya Pradesh</h3><p>Collection centre of Shrink Bag</p>'
   },
 
   {
     lngLat: [72.493950,24.110878], // [longitude, latitude] of the marker position
-    popupContent: '<img src="https://im.indiatimes.in/media/content/2018/Apr/plastic_1523957599.jpg"><h3>Vadgam, Gujarat</h3><p>Collection centre of Rigid Bottle Bag</p>'
+    popupContent: '<img src="https://im.indiatimes.in/media/content/2018/Apr/plastic_1523957599.jpg"><h3>Vadgam, Gujarat</h3><p>Collection centre of Shrink Bag</p>'
   },
 
   {
     lngLat: [74.516593,21.831092], // [longitude, latitude] of the marker position
-    popupContent: '<img src="https://en-media.thebetterindia.com/uploads/2019/04/IMG_7020.jpg"><h3>Pati, Madhya Pradesh</h3><p>Collection centre of Rigid Bottle Bag</p>'
+    popupContent: '<img src="https://en-media.thebetterindia.com/uploads/2019/04/IMG_7020.jpg"><h3>Pati, Madhya Pradesh</h3><p>Collection centre of Shrink Bag</p>'
   },
 
   {
     lngLat: [74.832818, 20.867474], // [longitude, latitude] of the marker position
-    popupContent: '<img src="https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/article5615.jpg"><h3>Dhule , Maharashtra</h3><p>Collection centre of Rigid Bottle Bag</p>'
+    popupContent: '<img src="https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/article5615.jpg"><h3>Dhule , Maharashtra</h3><p>Collection centre of Shrink Bag</p>'
   },
 
   {
     lngLat: [73.843388, 19.920099], // [longitude, latitude] of the marker position
-    popupContent: '<img src="https://images.yourstory.com/cs/5/571d59d0-2d6c-11e9-aa97-9329348d4c3e/Untitled_design-81559651782782.png"><h3>Nashik, Maharashtra</h3><p>Collection centre of Rigid Bottle Bag</p>'
+    popupContent: '<img src="https://images.yourstory.com/cs/5/571d59d0-2d6c-11e9-aa97-9329348d4c3e/Untitled_design-81559651782782.png"><h3>Nashik, Maharashtra</h3><p>Collection centre of Shrink Bag</p>'
   }
   // Add more markers here if needed
 ];
@@ -66,7 +66,7 @@ map.addControl(new mapboxgl.FullscreenControl());
 
 
     
-var mapContainer2 = document.getElementById('map2');
+     var mapContainer2 = document.getElementById('map2');
 var map2 = new mapboxgl.Map({
  container: 'map2',
  style: 'mapbox://styles/mapbox/streets-v12',
@@ -145,6 +145,9 @@ var map2 = new mapboxgl.Map({
     map2.addControl(new mapboxgl.NavigationControl());
     map2.addControl(new mapboxgl.FullscreenControl());
     
+
+  
+
 
 
     var mapContainer3 = document.getElementById('map3');
@@ -479,7 +482,6 @@ function createMarkerElement(iconUrl) {
 
 //     return marker;
 // }
-
 
 
 
